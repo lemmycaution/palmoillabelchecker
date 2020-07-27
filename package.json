@@ -1,0 +1,10 @@
+{
+  "name": "palmoillabelchecker",
+  "version": "0.0.1",
+  "keywords": ["palm oil"],
+  "author": "me@onuruyar.com",
+  "license": " IT",
+  "dependencies": {
+    "tesseract.js": "^2.1.1"
+  }
+}
