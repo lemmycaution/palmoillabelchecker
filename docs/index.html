@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Palm oil label checker</title>
-  <script src='/tesseract.min.js'></script>
+  <script src='tesseract.min.js'></script>
   <style>.hidden{display:none}</style>
 </head>
 <body>
@@ -53,7 +53,7 @@
         }
         show(result)
       }
-      fetch('/names.txt').then(r => r.text()).then(s => names=parse(s))
+      fetch('names.txt').then(r => r.text()).then(s => names=parse(s))
       const elm = document.getElementById('uploader')
       elm.addEventListener('change', recognize)
     </script>
